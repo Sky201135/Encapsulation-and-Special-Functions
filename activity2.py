@@ -3,7 +3,7 @@ class Computer:
     def __init__(self):
         self.__maxprice = 900
 
-    del sell(self):
+    def sell(self):
         print("Selling Price: {}".format(self.__maxprice))
 
         def setMaxPrice(self, price):
