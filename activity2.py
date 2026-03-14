@@ -6,7 +6,7 @@ class Computer:
     def sell(self):
         print("Selling Price: {}".format(self.__maxprice))
 
-        def setMaxPrice(self, price):
+    def setMaxPrice(self, price):
             self.__maxprice = price
 
 c = Computer()
